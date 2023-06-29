@@ -42,6 +42,7 @@ local function setup_commands()
     },
     RustExpandMacro = { rt.expand_macro.expand_macro },
     RustSyntaxTree = { rt.syntax_tree.syntax_tree },
+    RustItemTree = { rt.item_tree.item_tree },
     RustOpenExternalDocs = {
       rt.external_docs.open_external_docs,
     },

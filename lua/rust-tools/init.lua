@@ -55,6 +55,9 @@ function M.setup(opts)
   local syntax_tree = require("rust-tools.syntax_tree")
   M.syntax_tree = syntax_tree
 
+  local item_tree = require("rust-tools.item_tree")
+  M.item_tree = item_tree
+
   local external_docs = require("rust-tools.external_docs")
   M.external_docs = external_docs
 
